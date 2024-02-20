@@ -1,0 +1,274 @@
+@media screen and (min-width:1080px) {
+    #container{
+        width: 1024px;
+        height: 100%;
+        padding: 0;
+        margin: 10px auto;
+    }
+    #header{
+        width: 1024px;
+        height: 325px;
+        background-image: url(/images/animal05.avif);
+        background-position: center center;
+        background-size: cover;
+        line-height: 325px;
+        text-align: right;
+        
+    }
+    .hd{
+        font-size: 48px;
+        color:var(--textcolor02);
+        margin-right: 175px;
+        font-weight: 500;
+        font-family: 標楷體;
+    }
+    #content1{
+        width: 25%;
+        height: 650px;
+        background: linear-gradient(rgba(256,256,256,0.5),rgba(128,125,128,0.1)),url(/images/animal02.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        /* line-height: 50px; */
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    h3{
+        color:var(--textcolor09);
+        background:var(--textcolor16);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    #content2{
+        width: 25%;
+        height: 650px;
+        background: linear-gradient(rgba(128,125,128,0.1),rgba(256,256,256,0.5)), url(/images/animal06.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .n2{
+        color:var(--textcolor21);
+    }
+    #content3{
+        width: 25%;
+        height: 650px;
+        background: linear-gradient(rgba(256,256,256,0.5),rgba(128,125,128,0.1)),url(/images/animal07.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #content4{
+        width: 25%;
+        height: 650px;
+        background: linear-gradient(rgba(128,125,128,0.1),rgba(256,256,256,0.5)), url(/images/animal10.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #footer{
+        width: 1024px;
+        height: 50px;
+        background-color:var(--textcolor49);
+        color:var(--textcolor02);
+        text-align: center;
+        line-height: 50px;
+        clear: both;
+    }
+}
+@media screen and (max-width:1079px) and (min-width:481px){
+    #container{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 10px auto;
+    }
+    #header{
+        width: 100%;
+        height: 150px;
+        background-image: url(/images/animal05.avif);
+        background-position: center center;
+        background-size: cover;
+        line-height: 150px;
+        text-align: right;
+        
+    }
+    .hd{
+        font-size: 48px;
+        color:var(--textcolor02);
+        margin-right: 175px;
+        font-weight: 500;
+        font-family: 標楷體;
+    }
+    #content1{
+        width: 50%;
+        height: 280px;
+        background: linear-gradient(rgba(128,125,128,0.1),rgba(256,256,256,0.5)), url(/images/animal02.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    h3{
+        width: 150px;
+        color:var(--textcolor09);
+        background:var(--textcolor16);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    #content2{
+        width: 50%;
+        height: 280px;
+        background: linear-gradient(rgba(256,256,256,0.5),rgba(128,125,128,0.1)),url(/images/animal06.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .n2{
+        color:var(--textcolor21);
+    } 
+    .n3{
+        color: #000;
+        opacity: 0.5;
+    }
+    #content3{
+        width: 50%;
+        height: 280px;
+        background: linear-gradient(rgba(128,125,128,0.1),rgba(256,256,256,0.5)), url(/images/animal07.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #content4{
+        width: 50%;
+        height: 280px;
+        background: linear-gradient(rgba(256,256,256,0.5),rgba(128,125,128,0.1)),url(/images/animal10.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #footer{
+        width: 100%;
+        height: 50px;
+        background-color:var(--textcolor49);
+        color:var(--textcolor02);
+        text-align: center;
+        line-height: 50px;
+        clear: both;
+    }
+}
+@media screen and (max-width:480px){
+    #container{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 5px auto;
+    }
+    #header{
+        width: 100%;
+        height: 150px;
+        background-image: url(/images/animal05.avif);
+        position: relative;
+        background-position: center center;
+        background-size: cover;
+        line-height: 150px;
+        text-align: right;
+        
+    }
+    .hd{
+        font-size: 48px;
+        color:var(--textcolor02);
+        margin-right: 30px;
+        font-weight: 500;
+        font-family: 標楷體;
+    }
+    #content1{
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(rgba(256,256,256,0.5),rgba(128,125,128,0.1)),url(/images/animal02.avif);
+        background-position: center center;
+        position: relative;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #content2{
+        width:  100%;
+        height: 200px;
+        background: linear-gradient(rgba(128,125,128,0.1),rgba(256,256,256,0.5)), url(/images/animal06.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    h3{
+        width: 150px;
+        color:var(--textcolor09);
+        background:var(--textcolor16);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .n2{
+        color:var(--textcolor21);
+    }
+    .n3{
+        color: #000;
+        opacity: 0.5;
+    }
+    #content3{
+        width:  100%;
+        height: 200px;
+        background: linear-gradient(rgba(256,256,256,0.5),rgba(128,125,128,0.1)),url(/images/animal07.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #content4{
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(rgba(128,125,128,0.1),rgba(256,256,256,0.5)), url(/images/animal10.avif);
+        background-position: center center;
+        background-size: cover;
+        text-align: left;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #footer{
+        width: 100%;
+        height: 50px;
+        background-color:var(--textcolor49);
+        color:var(--textcolor02);
+        text-align: center;
+        line-height: 50px;
+        clear: both;
+    }
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Color.css">
+    <link rel="stylesheet" href="./CSS/2024.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl bg-light nav-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/Fullon_hotel_Logo.svg.png" alt="Bootstrap" width="200" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbarScroll" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  active nav-li" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            分店一覽
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="navli1"><a class="dropdown-item" href="#">福容大飯店</a></li>
+                            <li class="navli1"><a class="dropdown-item" href="#">福容徠旅</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-li" aria-current="page" href="#">最新消息</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-li" href="#">餐飲品牌</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-li" href="#">婚宴服務</a>
+                    </li>
+
+                    <div class="p-0 m-0 d-flex navrwd">
+                    <li class="nav-item">
+                        <a class="nav-link nav-other" href="#"><span class="material-symbols-outlined">more_vert</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-la" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            LANGUAGE
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">繁體中文</a></li>
+                            <li><a class="dropdown-item" href="#">檢體中文</a></li>
+                            <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                            <li><a class="dropdown-item" href="#">日本語</a></li>
+                        </ul>
+                    </li>
+                    <form class="d-flex" role="search">
+                        <a href="#" class="btn-search"><span class="material-symbols-outlined">search</span></a></button>
+                    </form>
+                    
+                        <li class="nav-item star">
+                            <a class="nav-link" href="#"><span class="material-symbols-outlined">star</span>享福卡</a>
+                        </li>
+                        <li class="nav-item star">
+                            <a class="nav-link" href="#"><span class="material-symbols-outlined">star</span>享福購</a>
+                        </li>
+                        <li class="nav-item star">
+                            <a class="nav-link" href="#"><span class="material-symbols-outlined">local_activity</span>票券訂購</a>
+                        </li>
+                        <li class="nav-item star">
+                            <a class="nav-link" href="#"><span class="material-symbols-outlined">local_activity</span>票券訂房</a>
+                        </li>
+                    
+                    <button class="btn btn-primary">立即訂房</button>
+                    </div>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./images/animal01.avif" class="d-block img" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/animal03.avif" class="d-block img" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4 divinput">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column">
+                    <label for="" class="form-label slabel">分店選擇</label>
+                    <select class="selectoption">
+                        <option selected disabled>請選擇</option>
+                        <option value="福容大飯店 台北一館">福容大飯店 台北一館</option>
+                        <option value="福容大飯店 台北二館">福容大飯店 台北二館</option>
+                        <option value="福容大飯店 桃園機場捷運A8店">福容大飯店 桃園機場捷運A8店</option>
+                        <option value="福容大飯店 桃園店">福容大飯店 桃園店</option>
+                        <option value="福容大飯店 中壢店">福容大飯店 中壢店</option>
+                        <option value="福容大飯店 高雄店">福容大飯店 高雄店</option>
+                        <option value="福容大飯店 淡水漁人碼頭店">福容大飯店 淡水漁人碼頭店</option>
+                        <option value="福容大飯店 麗寶樂園店">福容大飯店 麗寶樂園店</option>
+                        <option value="福容大飯店 墾丁店">福容大飯店 墾丁店</option>
+                        <option value="福容大飯店 花蓮店">福容大飯店 花蓮店</option>
+                        <option value="福容大飯店 福隆店">福容大飯店 福隆店</option>
+                        <option value="福容徠旅 墾丁店">福容徠旅 墾丁店</option>
+                        <option value="福容徠旅 高雄店">福容徠旅 高雄店</option>
+                        <option value="福容徠旅 水里店">福容徠旅 水里店</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="" class="form-label slabel">住宿夜數</label>
+                    <select class="selectoption1">
+                        <option selected disabled>1</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="" class="form-label slabel">成人</label>
+                    <select class="selectoption1">
+                        <option selected disabled>1</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="" class="form-label slabel">兒童</label>
+                    <select class="selectoption2">
+                        <option selected disabled>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="" class="form-label slabel">入住日期</label>
+                    <input type="date" class="datein">
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="" class="form-label slabel">退房日期</label>
+                    <input type="date" class="dateout" disabled>
+                </div>
+            </div>
+            <div class="d-flex flex-row">
+                <div class="d-flex">
+                    <button class="btn btn1">立即訂房</button>
+                </div>
+                <div class="d-flex">
+                    <button class="btn btnclean">清除重填</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 full01 d-flex justify-content-center">
+                <img src="./images/Fullon_hotel_Logo.svg.png" alt="" class="fullimg">
+                <div class="fullp">
+                    <p>福心笑容 台灣人情<br>
+                        提供精緻與貼心的住房享受<br>
+                        讓旅人來福容就像回家般親切<br>
+                        以最誠摯的笑容，讓賓客擁有最美好的旅程體驗</p>
+                </div>
+                <button class="btn">分店一覽</button>
+            </div>
+            <div class="col-md-6 full02 d-flex justify-content-center">
+                <img src="./images/Fullon_hotel_Logo.svg.png" alt="" class="fullimg">
+                <div class="fullp">
+                    <p>為感受生活而築行<br>
+                        徠旅是種生活模式，去蕪存菁的實際<br>
+                        以一種富有意義的方式傳遞，舒適、效率、安心<br>
+                        給予時間和機會去享受特別的時光，獨一無二，生活自我定義</p>
+                </div>
+                <button class="btn">前往官網</button>
+            </div>
+        </div>
+        <div class="row divrwd1">
+            <div class="col-md-6 showfull timeline">
+                <img src="./images/sea01.avif" alt="" class="fullimg">
+                <div onclick="show('hide1')" id="show" class="show"><h4>福容大飯店 福隆店</h4></div>
+                <div id="hide1" style="display:none">
+                    <p>城市悠遊之際，還有那麼一處清靜無憂的角落，愜意自在，是唯一擁有的感受；旅行，不只是短暫享受，更是與自我內心對話的好時刻！</p>
+                    <div>
+                        <button class="btn map">立即導航</button>
+                        <button class="btn branch">前往分店</button>
+                    </div>
+                </div>
+                <div onclick="show('hide2')" id="show1" class="show1" ><h4>福容大飯店 淡水漁人碼頭店</h4></div>
+                <div id="hide2" style="display:none">
+                    <p>致力於推行集團「奉茶」文化，用含蓄內斂的「請坐、呷茶」在地精神，熱忱、溫暖、貼心服務，讓顧客體驗如同來我家作客的殷勤款待與尊榮享受。</p>
+                    <div>
+                        <button class="btn map">立即導航</button>
+                        <button class="btn branch">前往分店</button>
+                    </div>
+                </div>
+                <div onclick="show('hide3')" id="show2" class="show2" ><h4>福容大飯店 台北二館</h4></div>
+                <div id="hide3" style="display:none">
+                    <p>離中壢火車站最近的星級飯店，輕鬆接軌中壢夜市、青埔棒球場、華泰名品城等，在四通八達的樞紐位置中，提供您舒適的住房體驗與有溫度的貼心服務，為您的不凡壯遊，增添不褪色的美好回憶。</p>
+                    <div>
+                        <button class="btn map">立即導航</button>
+                        <button class="btn branch">前往分店</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 showfull02">
+                <div class="timeline">
+                    <div class="timelines">分店據點地圖</div>
+                    <div class="display-3 hotel">HOTEL</div>
+                    <div class="fs-3 s17">17STRONGHOLD</div>
+                    <img src="./images/Taiwan.jpg" alt="" class="fullimg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid con-3">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-3">
+                    <div class="timelinecon3 d-flex flex-column">
+                        <span class="con31">2024.01.01~2024.12.31</span>
+                        <a href="#" class="con32">2024 VISA信用卡外國旅客用餐95優惠</a>
+                        <p class="con33">|境外旅客持VISA卡，可享用餐95優惠|</p>
+                        <span class="con34">2024.01.01~2024.12.31</span>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                    <div class="d-flex flex-column con3">
+                        <a href="#"><img src="./images/sea05.avif"></a>
+                        <span class="con31">2023.09.04~2024.09.30</span>
+                        <a href="#" class="con32">福容連鎖 立即訂房</a>
+                        <p class="con31">連鎖公告</p>
+                    </div>
+                </div>
+                <div class="col-md-3 con_3_3">
+                    <div class="d-flex flex-column con_3">
+                        <a href="#"><img src="./images/sea05.avif"></a>
+                        <span class="con31">2023.04.28</span>
+                        <a href="#" class="con32">聯合住宿券訂房專頁</a>
+                        <p class="con31">連鎖公告</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="timelinecon4">
+                        <p class="con1">掌握福容訊息</p>
+                        <div class="con23">
+                            <div class="display-4 con2">SPECIAL</div>
+                            <div class="display-4 con3">OFFER</div>
+                        </div>
+                        <h4 class="con4">最新活動消息</h4>
+                        <p class="con5">在福容享吃、享住、更享玩，掌握各店新鮮訊息不漏網</p>
+                        <div class="d-flex con6 align-items-center">
+                            <a href="#" class="con6a">了解更多</a>
+                            <a href="#" class="con6div"><div class="d-flex flex-row justify-content-center align-items-center"><span>→</span></div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container con-4">
+        <div class="row">
+            <div class="col-md-8">   
+                <div class="timelinecon-4 d-flex flex-row justify-content-between">
+                    <div class=" d-flex flex-column disa">
+                        <a href="#" class="timelinepon mt-3"></a>
+                        <a href="#" class="ms-3 con41">福粵樓港式飲茶</a>
+
+                        <a href="#" class="timelinepon mt-3">
+                            <a href="#" class="ms-3 con41">福園中餐廳</a>
+                        </a>
+                        <a href="#" class="timelinepon mt-3">
+                            <a href="#" class="ms-3 con41">順園日式料理</a>
+                        </a>
+                        <a href="#" class="timelinepon mt-3">
+                            <a href="#" class="ms-3 con41">田園咖啡廳</a>
+                        </a>
+                        <div class="d-flex flex-row justify-content-around  con_4">
+                            <a href="#" class="con-41 d-flex justify-content-center align-items-center disa1"><div>←</div></a>
+                            <a href="#" class="con-42 d-flex justify-content-center align-items-center disa1"><div>→</div></a>
+                        </div>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide car" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner imgrwd">
+                            <div class="carousel-item active">
+                                <img src="./images/animal01.avif" class="d-block" alt="..." height="450px" width="650px">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/animal03.avif" class="d-block" alt="..." height="450px" width="650px">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/animal05.avif" class="d-block" alt="..." height="450px" width="650px">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/animal07.avif" class="d-block" alt="..." height="450px" width="650px">
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> -->
+                      </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="timelinecon4">
+                    <p class="con1">美味心饗宴</p>
+                    <div class="display-4 con2">RESTAURANT</div>
+                    <div class="con3">ENJOY THE BEST DINING EXPERIENCE</div>
+                    <h4 class="con4">餐飲介紹</h4>
+                    <p class="con5">在地食材、大火烹飪、澎湃上桌，福容網羅從北到南頂尖主廚，精湛手藝給您味蕾上的滿足</p>
+                    <div class="d-flex con6 flex-row align-items-center">
+                        <a href="#" class="con6a">了解更多</a>
+                        <a href="#" class="con6div"><div class="d-flex flex-row justify-content-center align-items-center"><span>→</span></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid con-5 d-flex align-items-center flex-row justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 con5div">
+                    <a href="#"><img src="./images/Fullon_hotel_Logo.svg.png" alt="" height="50px" width="100px"></a>
+                    <div class="con51">CONTACT</div>
+                    <div class="con52">聯絡我們</div>
+                    <div class="con53">
+                        <span>Email : </span><a href="#">yahoo.com</a>
+                    </div>
+                    <div class="con53">
+                        <span>客服電話 : </span><a href="#">+886-01-2345-6789</a>
+                    </div>
+                    <div class="con53">
+                        <span>公司地址 : </span><a href="#">新北市新莊區中央路716號三樓</a>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center con5imgrwd">
+                    <img src="./images/Taiwan.png" alt="" width="60%" height="80%">
+                </div>
+                <div class="col-md-6">
+                    <div class="timeline">
+                        <div class="con5-5">
+                            <div class="con54">RELATED BRANDS</div>
+                            <div class="con55">相關品牌</div>
+                            <div class="con56">
+                                <img src="./images/sea01.avif" alt="" height="50px" width="100px">
+                                <img src="./images/sea02.avif" alt="" height="50px" width="100px">
+                                <img src="./images/sea03.avif" alt="" height="50px" width="100px">
+                                <img src="./images/sea04.avif" alt="" height="50px" width="100px">
+                                <img src="./images/sea05.avif" alt="" height="50px" width="100px">
+                                <img src="./images/sea01.avif" alt="" height="50px" width="100px">
+                            </div>
+                            <div class="con57">
+                                <img src="./images/facebook.png" alt="" height="20px" width="20px" class="con57-1">
+                                <img src="./images/line.png" alt="" height="20px" width="20px" class="con57-1">
+                                <img src="./images/youtube.png" alt="" height="20px" width="20px" class="con57-1">
+                                <img src="./images/instagram.png" alt="" height="20px" width="20px" class="con57-1">
+                                <a href="#" class="con57-1">旅宿登記證號</a>
+                            </div>
+                            <div class="con58">COPYRIGHT 2020 FULLON HOTELS & RESORTS. ALL RIGHTS RESERVED.| DESIGN BY IBEST</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./JS/bootstrap.bundle.min.js"></script>
+<script src="./JS/jquery-3.7.1.min.js"></script>
+<script>
+    function show(targetId) {
+        var targets = ['hide1', 'hide2', 'hide3'];
+
+        for (var i = 0; i < targets.length; i++) {
+            var currentTarget = document.getElementById(targets[i]);
+            if (targets[i] === targetId) {
+                currentTarget.style.display = 'block';
+            } else {
+                currentTarget.style.display = 'none';
+            }
+        }
+    }
+</script>
+</html>

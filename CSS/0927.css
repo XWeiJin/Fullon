@@ -1,0 +1,92 @@
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+#unive{
+    background: radial-gradient(#555,#000);
+}
+
+@keyframes staranim{
+    from{opacity: 1;}
+    to{opacity: 0.1;}
+}
+#stars{
+    background-image: url(/images/stars.png);
+    height: 100%;
+    background-size: cover;
+    animation-name: staranim;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sunny{
+    from{box-shadow: 0 0 45px #f5c313;}
+    to{box-shadow: 0 0 90px #f5c313;}
+}
+
+#sun{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#f5c313,#ec7e08);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 50%;
+    box-shadow: 0 0 45px #f5c313;
+    animation: sunny 3s infinite alternate;
+}
+
+@keyframes span{
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
+}
+
+#earther{
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    animation: span 15s linear infinite;
+}
+
+ @keyframes spane{
+    from{transform: rotate(0);}
+    to{transform: rotate(360deg);}
+} 
+
+#earth{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -40px;
+    left: 50%;
+    animation: spane 3s linear infinite;
+    
+}
+
+#moonborder{
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid red; */
+    position: absolute;
+
+    left: 50%;
+    margin-left: -55px ;
+    margin-top: -55px;
+    border-radius: 50%;
+    animation: spane 10s linear infinite;
+}
+#moon{
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(#ddd,#888);
+    border-radius: 50%;
+}

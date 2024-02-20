@@ -1,0 +1,133 @@
+/* @media screen and (min-width:450px) and (max-width:1000px){
+    body{
+        background-image: url(/images/IU01.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+} */
+
+/* @media screen and (orientation:portrait) {   直向 
+    body{
+        background: #000;
+    }
+}
+@media screen and (orientation:landscape) {   橫向 
+    body{
+        background: #F0F;
+    }
+} */
+
+@media screen and (min-width:480px) {
+    #container{
+        width: 800px;
+        height: 800px;
+        padding: 0;
+        margin: 10px auto;
+    }
+    #header{
+        height: 50px;
+        color: #FFF;
+        background-color: darkgray;
+        font: 24px;
+        text-align: center;
+        line-height: 50px;
+    }
+    #main{
+        width: 60%;
+        height: 100%;
+        background-color: lightgray;
+        color: #FFF;
+        font-size: 24px;
+        text-align: center;
+        line-height: 300px;
+        float: left;
+    }
+    #sidebar{
+        width: 40%;
+        height: 100%;
+        color: gray;
+        background-color: whitesmoke;
+        font-size: 24px;
+        text-align: center;
+        line-height: 300px;
+        float: left;
+    }
+    #footer{
+        height: 50px;
+        color: #FFF;
+        background-color: darkgray;
+        font: 24px;
+        text-align: center;
+        line-height: 50px;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:479px) {
+    #container{
+        width: 300px;
+        padding: 0;
+        margin: 10px auto;
+    }
+    #header{
+        height: 50px;
+        color: #FFF;
+        background-color: darkgray;
+        font: 24px;
+        text-align: center;
+        line-height: 50px;
+    }
+    #main{
+        height: 150px;
+        background-color: lightgray;
+        color: #FFF;
+        font-size: 24px;
+        text-align: center;
+        line-height: 150px;
+    }
+    #sidebar{
+        height: 150px;
+        color: gray;
+        background-color: whitesmoke;
+        font-size: 24px;
+        text-align: center;
+        line-height: 150px;
+    }
+    #footer{
+        height: 50px;
+        color: #FFF;
+        background-color: darkgray;
+        font: 24px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .mon{
+        display: none;
+    }
+}
+body{
+    line-height: 1;
+    font-family: 標楷體;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.container{
+    max-width: 800px;
+}
+.order{
+    width: 100%;
+}
+.order th, .order td{
+    border: 1px solid green;
+    text-align: center;
+    padding: 5px;
+}
+.order th{
+    background: green;
+    color: white;
+}

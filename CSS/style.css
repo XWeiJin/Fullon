@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body{
+    background-color: #fbf9cc;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-x;
+    /* background-repeat: repeat-y; 垂直 */
+    /* background: #fbf9cc url(./images/bg.png) repeat-x; */
+    /* background-position: 0 100px;
+    background-position: center bottom;
+    background-position: 0 50%; */
+}
+/*連結顏色設定*/
+a{
+    color: red;
+}
+/*頁首,導覽,頁尾的共通設定*/
+header, nav ,footer{
+    text-align: center;
+}
+
+/*頁面標題設定*/
+header h1{
+    color: white;
+    background-color: #5aaa87;
+    margin:0 auto;
+    margin-top: 90px;
+    padding: 10px;
+    width: 30vw;
+    border-radius: 50%;
+    border: #9ce2c5 double 3px;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-weight: bold;    
+    font-family: 'Gloria Hallelujah','Caveat', cursive;
+    text-shadow: 2px 2px 1px black;
+    box-shadow: 2px 2px 3px 2px rgb(61, 54, 54);
+    background: linear-gradient(to top,#4da780,#7fc0a5);
+}
+
+/*導覽樣式設定*/
+nav ul{
+    /* display: inline-block; */
+}
+nav ul li{
+    display: inline-block;
+    /* float: left; */
+    list-style-type: none;
+
+}
+nav ul li a{
+    background-color: #58a886;
+    display: block;
+    padding: 5px 50px;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    color: red;
+    background-color: #b67c7c;
+    border-radius: 7px;
+}
+
+/*次標題設定*/
+    h2{
+        color: #73bda0;
+        border: 1px dotted #58a886;
+        border-left: 10px solid #d0e35b;
+        border-radius: 7px 0px 0px 7px;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+/*小標題設定*/
+    h3{
+        color: #ff705b;
+        padding: 10px;
+        background-color: #fbf9cc;
+        border-radius: 7px;
+        box-shadow: 0 0 5px #f6bb9e inset;
+    }
+    h3 span{
+        font-weight: normal;
+    }
+/*內容區塊邊框設定*/
+main{
+    background-color: white;
+    width: 1000px;
+    border: 1px solid #f6bb9e;
+    margin: 40px auto;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+
+
+    
+
+/*連結圖示設定*/
+a[href^="mailto://"]::after{
+    content: url(/images/ico_mail.png);
+    vertical-align: middle;
+    margin-left: 5px;
+}
+a[target="_blank"]::after{
+    content: url(/images/ico_blank.png);
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/*區塊間分隔*/
+    main > section + section{
+        margin-top: 80px;
+    }
+
+/*「更多介紹」連結設定*/
+    .te2::after{
+        content: url(/images/ico_arrow.png);
+        vertical-align: middle; /*水平垂直*/
+    }
+/*文繞圖設定*/
+    .img1{
+        float: left;
+        margin-right: 15px;
+    }
+    .img2{
+        float: right;
+        margin-left: 15px;
+    }
+    .te1{
+        clear: both;
+        text-align: right;
+    }
+    .img3{
+        float: left;
+        margin-right: 15px;
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+/*圓形圖片設定*/
+
+    .imgre{
+        border-radius: 50%;
+
+    }

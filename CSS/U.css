@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+
+@font-face{
+    font-family: ShadowsIntoLight;
+    src: url(/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
+
+
+div{
+    width: 500px;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+
+    position:relative;
+}
+span{
+    background-color: #f82d09;
+
+    position: absolute;
+
+}
