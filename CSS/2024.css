@@ -28,6 +28,9 @@
   font-weight: bolder;
   box-sizing: border-box;
 }
+.nav-nav .container-fluid ul li .nav-li:hover {
+  color: var(--textcolor41);
+}
 .nav-nav .container-fluid ul li .navli1 {
   text-align: center;
   width: 240px;
@@ -40,6 +43,10 @@
   padding: 0;
   text-align: center;
   box-sizing: border-box;
+}
+.nav-nav .container-fluid ul li .nav-other:hover {
+  background-color: #000;
+  color: #FFF;
 }
 .nav-nav .container-fluid ul li .nav-la {
   width: 150px;
@@ -60,6 +67,10 @@
   line-height: 80px;
   box-sizing: border-box;
 }
+.nav-nav .container-fluid ul .btn-search:hover {
+  background-color: var(--textcolor41);
+  color: #FFF;
+}
 .nav-nav .container-fluid ul .star {
   font-size: small;
   width: 80px;
@@ -77,10 +88,19 @@
   flex-direction: column;
   align-items: center;
 }
+.nav-nav .container-fluid ul .star:hover {
+  background-color: var(--textcolor41);
+}
+.nav-nav .container-fluid ul .star:hover a {
+  color: #FFF;
+}
 .nav-nav .container-fluid ul button {
   width: 150px;
   height: 70px;
   border-radius: 0;
+}
+.nav-nav .container-fluid ul button:hover {
+  opacity: 0.7;
 }
 
 .img {
@@ -138,6 +158,10 @@
   border-radius: 0px;
 }
 
+.btn:hover {
+  background: var(--textcolor31);
+}
+
 .btnclean {
   background: var(--textcolor31);
   color: black;
@@ -145,6 +169,11 @@
   height: 50px;
   margin-top: 2rem;
   border-radius: 0px;
+}
+
+.btnclean:hover {
+  background: var(--textcolor41);
+  color: #FFF;
 }
 
 .full01 {
@@ -234,6 +263,10 @@
   background: #eeeeee;
   border-radius: 0px;
 }
+.showfull .map:hover {
+  background-color: var(--textcolor41);
+  color: #FFF;
+}
 .showfull .branch {
   width: 150px;
   height: 50px;
@@ -241,6 +274,10 @@
   background: var(--textcolor41);
   color: white;
   border-radius: 0px;
+}
+.showfull .branch:hover {
+  background-color: var(--textcolor31);
+  color: #000;
 }
 
 .showfull02 {
@@ -314,6 +351,9 @@
   text-decoration: none;
   color: var(--textcolor36);
 }
+.con-3 .row .timelinecon3 .con32:hover {
+  color: var(--textcolor41);
+}
 .con-3 .row .timelinecon3 .con33 {
   margin-top: 0.5rem;
   font-weight: bold;
@@ -345,6 +385,9 @@
   height: 200px;
   width: 300px;
 }
+.con-3 .row .con3:hover {
+  opacity: 0.7;
+}
 .con-3 .row .con_3 .con31 {
   color: var(--textcolor41);
   font-size: smaller;
@@ -358,6 +401,9 @@
 .con-3 .row .con_3 img {
   height: 200px;
   width: 300px;
+}
+.con-3 .row .con_3:hover {
+  opacity: 0.7;
 }
 .con-3 .row .timelinecon4 {
   position: relative;
@@ -406,6 +452,12 @@
   font-weight: bolder;
   font-size: x-large;
 }
+.con-3 .row .timelinecon4 .con6 .con6div div span:hover {
+  color: #FFF;
+}
+.con-3 .row .timelinecon4 .con6 .con6div div:hover {
+  background-color: var(--textcolor41);
+}
 .con-3 .row .timelinecon4::before {
   position: absolute;
   content: "";
@@ -449,15 +501,22 @@
 .con-4 .timelinecon-4 .con_4 .con-41 div {
   color: var(--textcolor31);
 }
+.con-4 .timelinecon-4 .con_4 .con-41:hover {
+  background-color: var(--textcolor19);
+}
 .con-4 .timelinecon-4 .con_4 .con-42 {
   text-decoration: none;
   width: 35px;
   height: 35px;
   background: var(--textcolor41);
   border-radius: 50%;
+  display: block;
 }
 .con-4 .timelinecon-4 .con_4 .con-42 div {
   color: var(--textcolor31);
+}
+.con-4 .timelinecon-4 .con_4 .con-42:hover {
+  background-color: var(--textcolor19);
 }
 .con-4 .timelinecon-4 .timelinepon::before {
   position: absolute;
@@ -528,6 +587,12 @@
 .con-4 .timelinecon4 .con6 .con6div div span {
   font-weight: bolder;
   font-size: x-large;
+}
+.con-4 .timelinecon4 .con6 .con6div div:hover {
+  background-color: var(--textcolor41);
+}
+.con-4 .timelinecon4 .con6 .con6div div:hover span {
+  color: #FFF;
 }
 .con-4 .timelinecon4::before {
   position: absolute;
@@ -604,6 +669,9 @@
   margin-bottom: 1.5rem;
   text-decoration: none;
   color: var(--textcolor36);
+}
+.con-5 .row .timeline .con5-5 .con57 .con57-1:hover {
+  color: var(--textcolor41);
 }
 .con-5 .row .timeline .con5-5 .con58 {
   font-size: small;
